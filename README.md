@@ -33,8 +33,3 @@ yum-oh-plum
 
 `-r`: generate words for the right side of the keyboard.
 
-## Examples
-
-```
-go run main.go -n 5 -l
-```
