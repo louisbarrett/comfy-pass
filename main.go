@@ -32,6 +32,10 @@ func getKeyboardWords(random bool, list bool) (returnedWord string, wordList []s
 		wordsURL = rightHandWordsURL
 	}
 
+	if !*flagLeft && !*flagRight {
+		wordsURL = leftHandWordsURL
+	}
+	
 	WordsResponse, err := http.Get(wordsURL)
 	if err != nil {
 		log.Fatal(err)
