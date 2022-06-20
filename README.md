@@ -6,7 +6,7 @@ A simple command-line tool for generating random words using characters from eac
 
 ```
 Usage of comfy-pass
-  -l    Left hand words
+  -l    left hand words
   -r    right hand words
   -n int
         Number of words to generate in pw (default 3)
